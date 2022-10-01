@@ -3,6 +3,6 @@ Sistem Informasi Penilaian Untuk Dosen Internal Berbasis Mobile Application Usin
 
 Demo Video (Click The Pic) 👇👇👇
 
-[![Sistem-Informasi-Penilaian-Untuk-Dosen-Internal-Berbasis-Mobile](https://img.youtube.com/vi/jRbqjwg_DY4)](https://www.youtube.com/watch?v=jRbqjwg_DY4)
+[![Sistem-Informasi-Penilaian-Untuk-Dosen-Internal-Berbasis-Mobile](https://img.youtube.com/vi/jRbqjwg_DY4/0.jpg)](https://www.youtube.com/watch?v=jRbqjwg_DY4)
 
 
