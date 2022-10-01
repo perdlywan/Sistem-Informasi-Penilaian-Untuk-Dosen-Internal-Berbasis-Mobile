@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kelompok3_Uas</string>
+    <string name="para">Kami mengharapkan para mahasiswa/mahasiswi Universitas Serang Raya untuk dapat mengisi kuisioner ini dengan lengkap dan obyektif, untuk kepentingan bersama. Data Responden akan di rahasiakan!</string>
+
+    <string-array name="dosen">
+        <item>Subandi Wahyudi, M.Kom (APLIKASI BISNIS II)</item>
+        <item>Zaenal Muttaqin, S.Kom., SE., MM (AUDIT SI)</item>
+        <item>Haris Triono Sigit, M.Kom (MOBILE III)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/logo_unsera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_margin="25dp"
+        android:src="@drawable/unsera"
+        app:shapeAppearanceOverlay="@style/roundedimageview"
+        ></com.google.android.material.imageview.ShapeableImageView>
+
+    <TextView
+        android:id="@+id/txtJudul"
+        android:layout_below="@id/logo_unsera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:text="KUESIONER PENILAIAN MAHASISWA TERHADAP DOSEN"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/lora_bold"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/txtPara"
+        android:layout_below="@id/txtJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/para"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_regular"
+        ></TextView>
+
+    <Button
+        android:id="@+id/btn_input"
+        android:layout_below="@+id/txtPara"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Isi kuisioner penilaian dosen"
+        android:onClick="tambahKuisoner"
+        android:fontFamily="@font/lora_bold"
+        android:background="@drawable/button_shape"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_histori"
+        android:layout_below="@+id/btn_input"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Histori pengisian kuisioner"
+        android:onClick="historyKuisoner"
+        android:fontFamily="@font/lora_bold"
+        android:background="@drawable/button_shape"
+        >
+
+    </Button>
+
+</RelativeLayout>

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditKuisoner">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        >
+
+
+        <TextView
+            android:id="@+id/txt"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="DOSEN"
+            ></TextView>
+
+        <Spinner
+            android:id="@+id/comboDosenEdit"
+            android:layout_below="@id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp">
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/txt1"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_below="@id/comboDosenEdit"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Kejelasan dalam menyampaikan materi perkuliahan"
+            ></TextView>
+
+        <RadioGroup
+            android:id="@+id/radioGroup1Edit"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_below="@id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <RadioButton
+                android:text="SangatBaik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio1Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Baik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio2Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Cukup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio3Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Kurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio4Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="SangatKurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio5Edit"
+                ></RadioButton>
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/txt2"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/radioGroup1Edit"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Sistematika penyampaian materi perkuliahan"
+            ></TextView>
+
+        <RadioGroup
+            android:id="@+id/radioGroup2Edit"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_below="@id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <RadioButton
+                android:text="SangatBaik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio6Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Baik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio7Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Cukup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio8Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Kurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio9Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="SangatKurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio10Edit"
+                ></RadioButton>
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/txt3"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/radioGroup2Edit"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Kemampuan mendorong mahasiswa untuk aktif dalam bertanya"
+            ></TextView>
+
+        <RadioGroup
+            android:id="@+id/radioGroup3Edit"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_below="@id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <RadioButton
+                android:text="SangatBaik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio11Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Baik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio12Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Cukup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio13Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Kurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio14Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="SangatKurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio15Edit"
+                ></RadioButton>
+        </RadioGroup>
+
+
+
+        <TextView
+            android:id="@+id/txt4"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/radioGroup3Edit"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Kemampuan menumbuhkan motivasi belajar mahasiswa"
+            ></TextView>
+
+        <RadioGroup
+            android:id="@+id/radioGroup4Edit"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_below="@id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <RadioButton
+                android:text="SangatBaik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio16Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Baik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio17Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Cukup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio18Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Kurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio19Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="SangatKurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio20Edit"
+                ></RadioButton>
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/txt5"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/radioGroup4Edit"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Kedisiplinan dosen terhadap alokasi waktu yang diberikan"
+            ></TextView>
+
+        <RadioGroup
+            android:id="@+id/radioGroup5Edit"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_below="@id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <RadioButton
+                android:text="SangatBaik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio21Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Baik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio22Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Cukup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio23Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Kurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio24Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="SangatKurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio25Edit"
+                ></RadioButton>
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/txt6"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/radioGroup5Edit"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Kemampuan menggunakan media pembelajaran"
+            ></TextView>
+
+        <RadioGroup
+            android:id="@+id/radioGroup6Edit"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_below="@id/txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <RadioButton
+                android:text="SangatBaik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio26Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Baik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio27Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Cukup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio28Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Kurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio29Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="SangatKurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio30Edit"
+                ></RadioButton>
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/txt7"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/radioGroup6Edit"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Kemampuan menggunakan strategi pembelajaran"
+            ></TextView>
+
+        <RadioGroup
+            android:id="@+id/radioGroup7Edit"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_below="@id/txt7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <RadioButton
+                android:text="SangatBaik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio31Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Baik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio32Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Cukup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio33Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Kurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio34Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="SangatKurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio35Edit"
+                ></RadioButton>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txt8"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/radioGroup7Edit"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Kehadiran dosen memberi perkuliahan dalam satu semester"
+            ></TextView>
+
+        <RadioGroup
+            android:id="@+id/radioGroup8Edit"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_below="@id/txt8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <RadioButton
+                android:text="SangatBaik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio36Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Baik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio37Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Cukup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio38Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="Kurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio39Edit"
+                ></RadioButton>
+
+            <RadioButton
+                android:text="SangatKurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio40Edit"
+                ></RadioButton>
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/btn_updateKuisoner"
+            android:layout_below="@id/radioGroup8Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:background="@drawable/button_shape">
+        </Button>
+
+        <EditText
+            android:visibility="invisible"
+            android:id="@+id/edId"
+            android:enabled="false"
+            android:layout_below="@id/btn_updateKuisoner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></EditText>
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    tools:context=".DetailDosen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_centerVertical="true">
+            <TextView
+                android:id="@+id/namaDosen1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="Perdly Setiawan"
+                android:fontFamily="@font/lora_italic"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                >
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:elevation="36dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+
+            <TextView
+                android:id="@+id/judulKode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="KODE DOSEN:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/kode"
+                android:layout_below="@id/judulKode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="11118064"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulNidn"
+                android:layout_below="@id/kode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="NIDN:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/nidn"
+                android:layout_below="@id/judulNidn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="11118064"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulNama"
+                android:layout_below="@id/nidn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="NAMA LENGKAP:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/namaDosen"
+                android:layout_below="@id/judulNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Nama Dosen"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulTmptLahir"
+                android:layout_below="@id/namaDosen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="TEMPAT LAHIR:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/TmptLahir"
+                android:layout_below="@id/judulTmptLahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Tempat Lahir"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulTglLahir"
+                android:layout_below="@id/TmptLahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="TANGGAL LAHIR:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/TglLahir"
+                android:layout_below="@id/judulTglLahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Tanggal Lahir"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulStatus"
+                android:layout_below="@id/TglLahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="STATUS:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/Status"
+                android:layout_below="@id/judulStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Status"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulAlamat"
+                android:layout_below="@id/Status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="ALAMAT:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/Alamat"
+                android:layout_below="@id/judulAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Alamat"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulKelurahan"
+                android:layout_below="@id/Alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="Kelurahan:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/Kelurahan"
+                android:layout_below="@id/judulKelurahan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Kelurahan"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulKecamatan"
+                android:layout_below="@id/Kelurahan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="KECAMATAN:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/Kecamatan"
+                android:layout_below="@id/judulKecamatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Kecamatan"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulKota"
+                android:layout_below="@id/Kecamatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="KOTA / KAB:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/Kota"
+                android:layout_below="@id/judulKota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Kota / kab"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulProvinsi"
+                android:layout_below="@id/Kota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="PROVINSI:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/Provinsi"
+                android:layout_below="@id/judulProvinsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Provinsi"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulKodePos"
+                android:layout_below="@id/Provinsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="KODE POS:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/KodePos"
+                android:layout_below="@id/judulKodePos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Kode Pos"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+
+            <TextView
+                android:id="@+id/judulNoHp"
+                android:layout_below="@id/KodePos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="NOMOR HANDPHONE:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/NoHp"
+                android:layout_below="@id/judulNoHp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Nomor HP"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulPendidikan"
+                android:layout_below="@id/NoHp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="PENDIDIKAN:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/Pendidikan"
+                android:layout_below="@id/judulPendidikan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Pendidikan"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulJabatan"
+                android:layout_below="@id/Pendidikan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="JABATAN AKADEMIK:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/Jabatan"
+                android:layout_below="@id/judulJabatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Jabatan Akademik"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulGolongan"
+                android:layout_below="@id/Jabatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="GOLONGAN:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/Golongan"
+                android:layout_below="@id/judulGolongan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Golongan"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulProdi"
+                android:layout_below="@id/Golongan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="PROGRAM STUDI:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/Prodi"
+                android:layout_below="@id/judulProdi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Prodi"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/judulBidang"
+                android:layout_below="@id/Prodi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:text="BIDANG KEAHLIAN:"
+                android:fontFamily="@font/lora_bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/Bidang"
+                android:layout_below="@id/judulBidang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Bidang Keahlian"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@color/black"
+                />
+
+            <Button
+                android:id="@+id/btnBackDosen"
+                android:layout_below="@id/Bidang"
+                android:layout_width="120dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="25dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/primary"
+                android:text="Kembali"
+                ></Button>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

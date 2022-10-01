@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    tools:context=".DetailKuisoner">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_centerVertical="true">
+            <TextView
+                android:id="@+id/namaDosen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Perdly Setiawan"
+                android:fontFamily="@font/lora_italic"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                >
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:elevation="36dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+
+            <TextView
+            android:id="@+id/judulPertanyaan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:text="1. Kejelasan dalam menyampaikan materi perkuliahan:"
+            android:fontFamily="@font/lora_bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/pertanyaan1"
+            android:layout_below="@id/judulPertanyaan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="pertanyaan1"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/judulPertanyaan2"
+            android:layout_below="@id/pertanyaan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:text="2. Sistematika penyampaian materi perkuliahan:"
+            android:fontFamily="@font/lora_bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/pertanyaan2"
+            android:layout_below="@id/judulPertanyaan2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="pertanyaan2"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/judulPertanyaan3"
+            android:layout_below="@id/pertanyaan2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:text="3. Kemampuan mendorong mahasiswa untuk aktif dalam bertanya:"
+            android:fontFamily="@font/lora_bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/pertanyaan3"
+            android:layout_below="@id/judulPertanyaan3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="pertanyaan3"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/judulPertanyaan4"
+            android:layout_below="@id/pertanyaan3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:text="4. Kemampuan menumbuhkan motivasi belajar mahasiswa:"
+            android:fontFamily="@font/lora_bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/pertanyaan4"
+            android:layout_below="@id/judulPertanyaan4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="pertanyaan4"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/judulPertanyaan5"
+            android:layout_below="@id/pertanyaan4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:text="5. Kedisiplinan dosen terhadap alokasi waktu yang diberikan:"
+            android:fontFamily="@font/lora_bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/pertanyaan5"
+            android:layout_below="@id/judulPertanyaan5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="pertanyaan5"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/judulPertanyaan6"
+            android:layout_below="@id/pertanyaan5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:text="6. Kemampuan menggunakan media pembelajaran:"
+            android:fontFamily="@font/lora_bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/pertanyaan6"
+            android:layout_below="@id/judulPertanyaan6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="pertanyaan6"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/judulPertanyaan7"
+            android:layout_below="@id/pertanyaan6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:text="7. Kemampuan menggunakan strategi pembelajaran:"
+            android:fontFamily="@font/lora_bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/pertanyaan7"
+            android:layout_below="@id/judulPertanyaan7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="pertanyaan7"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/judulPertanyaan8"
+            android:layout_below="@id/pertanyaan7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:text="8. Kehadiran dosen memberi perkuliahan dalam satu semester:"
+            android:fontFamily="@font/lora_bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/pertanyaan8"
+            android:layout_below="@id/judulPertanyaan8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="pertanyaan8"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/black"
+            />
+            <Button
+                android:id="@+id/btnKembali"
+                android:layout_below="@id/pertanyaan8"
+                android:layout_width="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="23dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/primary"
+                android:text="Kembali"
+                ></Button>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
